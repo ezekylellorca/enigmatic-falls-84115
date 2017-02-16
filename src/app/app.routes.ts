@@ -6,6 +6,7 @@ import { CanActivateGuard } from './services/guard.service';
 import { HomeComponent } from './pages/home/home.component';
 import { PageNumComponent } from './pages/page-num/page-num.component';
 import { ClientComponent } from './pages/client/client.component';
+import { TreeComponent } from './pages/tree/tree.component';
 
 const routes: Routes = [
   // Root
@@ -22,6 +23,11 @@ const routes: Routes = [
     canActivate: [CanActivateGuard],
     component: ClientComponent,
     path: 'client'
+  },
+  {
+    canActivate: [CanActivateGuard],
+    component: TreeComponent,
+    path: 'tree'
   }
 ];
 

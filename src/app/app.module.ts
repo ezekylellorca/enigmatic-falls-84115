@@ -9,6 +9,7 @@ import { AngularFireModule, FirebaseAppConfig } from 'angularfire2';
 import { ToasterModule } from 'angular2-toaster/angular2-toaster';
 import { environment } from '../environments/environment';
 import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
+//import { IntegralUIModule } from 'integralui-web/integralui.module';
 
 export function createTranslateLoader( http: Http ) {
     return new TranslateStaticLoader( http, '../public/assets/i18n', '.json' );
@@ -21,6 +22,7 @@ let modules = [
     FormsModule,
     HttpModule,
     RouterModule,
+    //IntegralUIModule,
     AngularFireModule.initializeApp( environment.firebase ),
     TranslateModule.forRoot({
         deps: [Http],
@@ -78,15 +80,18 @@ let services = [
 import { HomeComponent } from './pages/home/home.component';
 import { PageNumComponent } from './pages/page-num/page-num.component';
 import { ClientComponent } from './pages/client/client.component';
+import { TreeComponent } from './pages/tree/tree.component';
 
 let pages = [
     HomeComponent,
     PageNumComponent,
     ClientComponent,
+    TreeComponent
 ];
 
 // main bootstrap
 import { routing } from './app.routes';
+
 
 @NgModule( {
     bootstrap: [AppComponent],

@@ -23,6 +23,11 @@ export class MenuAsideComponent implements OnInit {
       'link': ['/client']
     },
     {
+      'title': 'Tree',
+      'icon': 'tree',
+      'link': ['/tree']
+    },
+    {
       'title': 'Sub menu',
       'icon': 'link',
       'sublinks': [

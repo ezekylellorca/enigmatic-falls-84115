@@ -1,6 +1,6 @@
 {
-  "name": "ng2-admin-lte",
-  "version": "0.7.0",
+  "name": "Datum-Admin",
+  "version": "1.0.0",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -46,6 +46,7 @@
     "@types/auth0-lock": "^10.2.2",
     "@types/jasmine": "^2.2.30",
     "angular-cli": "^1.0.0-beta.26",
+    "awesome-typescript-loader": "^2.2.1",
     "codelyzer": "~0.0.26",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
