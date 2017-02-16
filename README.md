@@ -1,9 +1,3 @@
-# ng2-admin-lte
-
-[![Join the chat at https://gitter.im/TwanoO67/ng2-admin-lte](https://badges.gitter.im/TwanoO67/ng2-admin-lte.svg)](https://gitter.im/TwanoO67/ng2-admin-lte?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-Bootstraping of Angular2 with AdminLTE dashboard template
-
-![Preview](https://almsaeedstudio.com/img/AdminLTE2.1.png)
 
 ## Installation
 
@@ -35,13 +29,6 @@ cd src/app/services/
 ng g service my-new-service
 ```
 
-
-## Changelog 13/10/2016
-
-- Updated to Angular 2.1
-- Updated to Angular-cli webpack beta 17
-- Fix: Build issues, rigth nav issue
-- Add: Second page for routing example
 
 ## Components from Ng2-bootstrap
 
